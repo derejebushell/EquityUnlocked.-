@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Buyers Agents | Equity Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+        .insta-gradient { background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); }
+    </style>
+</head>
+<body class="bg-white text-black">
+
+    <!-- Header -->
+    <nav class="py-6 px-4 sm:px-8 border-b border-gray-50">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <span class="text-xl font-bold tracking-tighter uppercase italic">Quantum</span>
+                <span class="ml-2 text-[10px] font-medium tracking-widest text-gray-400 uppercase">Buyers Agents</span>
+            </div>
+
+            <a href="https://www.instagram.com/djpropertypro?igsh=MWZxOWE1ZW4zaWhnZg%3D%3D&utm_source=qr" target="_blank" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <div class="text-right hidden sm:block">
+                    <p class="text-[11px] font-bold tracking-tight leading-none">@djpropertypro</p>
+                    <p class="text-[9px] font-medium text-gray-400 uppercase tracking-widest mt-0.5">Follow for updates</p>
+                </div>
+                <div class="w-10 h-10 rounded-full p-0.5 insta-gradient">
+                    <div class="w-full h-full rounded-full border-2 border-white overflow-hidden bg-white">
+                        <img src="https://lh3.googleusercontent.com/d/1cPMr-eyUQ6LkcuvrypkDWaYUrABVPrwF" alt="Profile" class="w-full h-full object-cover">
+                    </div>
+                </div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="py-12 lg:py-20 px-4">
+        <div class="max-w-6xl mx-auto grid lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="inline-block px-3 py-1 mb-6 bg-black text-white text-[10px] font-bold uppercase tracking-[0.2em]">Limited Release Report</div>
+                <h1 class="text-4xl lg:text-6xl font-bold mb-6 leading-tight">Unlock the equity in your property</h1>
+                <p class="text-lg text-gray-600 mb-8">See how much usable equity you may already have and what it could mean for your next move.</p>
+                
+                <ul class="space-y-4">
+                    <li class="flex items-center gap-3"><span class="text-[#7a3e04]">✓</span> Current property value estimate</li>
+                    <li class="flex items-center gap-3"><span class="text-[#7a3e04]">✓</span> Breakdown of accessible equity</li>
+                    <li class="flex items-center gap-3"><span class="text-[#7a3e04]">✓</span> Insight into your next property move</li>
+                </ul>
+            </div>
+
+            <!-- Form -->
+            <div class="bg-white p-8 shadow-2xl border border-gray-100 relative">
+                <h2 class="text-xl font-bold mb-6">Get Your Free Report</h2>
+                <form action="https://formspree.io/f/xreowblv" method="POST" class="space-y-4">
+                    <div class="grid grid-cols-2 gap-4">
+                        <input type="text" name="firstName" placeholder="First Name" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
+                        <input type="text" name="surname" placeholder="Surname" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
+                    </div>
+                    <input type="email" name="email" placeholder="Email Address" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
+                    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
+                    <button type="submit" class="w-full bg-black text-white py-5 font-bold uppercase tracking-widest hover:bg-[#7a3e04] transition-all">Access Report Immediately</button>
+                    <p class="text-[10px] text-center text-gray-400 uppercase tracking-tighter">Your information is kept strictly confidential</p>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
