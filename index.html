@@ -6,11 +6,9 @@
     <title>Quantum Buyers Agents | Equity Report</title>
     
     <!-- PREVIEW CONTROL (Open Graph) -->
-    <!-- This stops apps from picking your profile photo as the thumbnail -->
     <meta property="og:title" content="Quantum Buyers Agents - Equity Report">
     <meta property="og:description" content="Unlock the equity in your property. Request your limited release report today.">
     <meta property="og:type" content="website">
-    <!-- Updated preview image to the document provided -->
     <meta property="og:image" content="https://lh3.googleusercontent.com/d/1Fx-6tU-dvUc20YpW2xNRGRGqNllWXKkR">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -70,13 +68,19 @@
             <div class="bg-white p-8 shadow-2xl border border-gray-100 relative">
                 <h2 class="text-xl font-bold mb-6">Get Your Free Report</h2>
                 <form action="https://formspree.io/f/xreowblv" method="POST" class="space-y-4">
+                    
+                    <!-- REDIRECT INSTRUCTION: This tells Formspree to send the user to the PDF after they click submit -->
+                    <input type="hidden" name="_next" value="https://drive.google.com/file/d/1Fx-6tU-dvUc20YpW2xNRGRGqNllWXKkR/view?usp=sharing">
+                    
                     <div class="grid grid-cols-2 gap-4">
                         <input type="text" name="firstName" placeholder="First Name" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
                         <input type="text" name="surname" placeholder="Surname" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
                     </div>
                     <input type="email" name="email" placeholder="Email Address" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
                     <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-4 bg-gray-50 border-none outline-none focus:ring-1 focus:ring-[#7a3e04]">
+                    
                     <button type="submit" class="w-full bg-black text-white py-5 font-bold uppercase tracking-widest hover:bg-[#7a3e04] transition-all">Access Report Immediately</button>
+                    
                     <p class="text-[10px] text-center text-gray-400 uppercase tracking-tighter">Your information is kept strictly confidential</p>
                 </form>
             </div>
